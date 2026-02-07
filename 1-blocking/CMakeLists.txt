@@ -1,0 +1,3 @@
+add_executable(blocking_server main.cpp)
+target_link_libraries(blocking_server PRIVATE common)
+set_target_properties(blocking_server PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED ON)

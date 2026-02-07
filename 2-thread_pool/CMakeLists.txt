@@ -1,0 +1,3 @@
+add_executable(thread_pool_server main.cpp)
+target_link_libraries(thread_pool_server PRIVATE common)
+set_target_properties(thread_pool_server PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED ON)
